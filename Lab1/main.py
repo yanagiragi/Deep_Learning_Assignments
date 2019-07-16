@@ -140,8 +140,8 @@ class nn:
 x_linear, y_linear = generate_linear(n=100)
 x_xor, y_xor = generate_xor_easy()
 
-nn_linear = nn([2, 4, 4, 1], .1)
-nn_xor = nn([2, 4, 4, 1], .1)
+nn_linear = nn([2, 4, 4, 1], 1)
+nn_xor = nn([2, 4, 4, 1], 1)
 epoch_count = 10000
 loss_threshold = 0.005
 linear_stop = False
